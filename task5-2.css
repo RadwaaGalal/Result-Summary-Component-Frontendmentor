@@ -1,0 +1,232 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(210, 46%, 95%);
+    ;
+}
+
+#ParentDiv {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+#LeftDiv {
+    width: 50%;
+    height: 100%;
+    background-color: hsl(252, 100%, 67%);
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%),
+            hsl(234, 55%, 55%));
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#childLabel {
+    color: darkgray;
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+#circleDiv {
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%),
+            hsl(234, 55%, 55%));
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#childLabel2 {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#childLabel3 {
+    font-size: 10px;
+    color: hsl(252, 100%, 67%);
+}
+
+#ChildDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#childLabel4 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+#childparagraph {
+    font-size: 13px;
+    color: darkgray;
+    text-align: center;
+    padding-left: 5px;
+
+}
+
+#RightDiv {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#summaruDiv {
+    width: 100%;
+    font-weight: 600;
+    color: hsl(224, 30%, 27%);
+    padding-top: 20px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
+
+#childDiv2 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.img {
+    width: 12px;
+    height: 12px;
+
+}
+
+#reacDiv {
+    color: hsl(0, 100%, 67%);
+    background-color: hsla(0, 100%, 67%, 0.1);
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.score {
+    color: hsl(224, 30%, 27%);
+    font-weight: 600;
+    /* padding-left: 50px; */
+    width: 25px;
+    border: none;
+
+
+}
+
+.scoreof {
+    color: darkgray;
+}
+
+#MemoDiv {
+    color: hsl(39, 100%, 56%);
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    background-color: hsla(39, 100%, 56%, 0.1);
+    border: none;
+
+
+}
+
+#VerbDiv {
+    color: hsl(166, 100%, 37%);
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    background-color: hsla(166, 100%, 37%, 0.1);
+    border: none;
+
+
+}
+
+#VisDiv {
+    color: hsl(234, 85%, 45%);
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    background-color: hsla(234, 85%, 45%, 0.1);
+}
+
+#buttonDiv {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100px; */
+    /* padding-top: 30px; */
+    /* padding-bottom: 50px; */
+    /* margin-top: 50px; */
+}
+
+#button {
+    width: 90%;
+    height: 35px;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%),
+            hsl(234, 55%, 55%));
+}
+
+@media only screen and (max-width: 600px) {
+    #ParentDiv {       
+        flex-direction: column;
+        width: 250px;
+        height: 600px;
+    
+    }
+
+    #LeftDiv {
+        width: 100%;
+ 
+    }
+
+    #RightDiv {
+        width: 100%;
+    
+    }
+
+    #childparagraph {
+        width: 60%;
+        height: 60px;
+        font-size: 10px;
+
+    }
+
+}
